@@ -80,3 +80,38 @@ h1 {
   align-items: center;
   gap: 24px;
 }
+
+.current_price {
+ font-size: 36px;
+ color: hsl(158, 36%, 37%);
+
+}
+
+.prev_price {
+font-size: 14px;
+text-decoration: line-through;
+color: hsl(228, 12%, 48%);
+}
+
+button {
+width: 100%;
+padding: 17px 0;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-weight: 700;
+border-radius: 7px;
+background-color: hsl(158, 36%, 37%);
+border: none;
+cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+button img {
+  margin-right: 7px;
+}
